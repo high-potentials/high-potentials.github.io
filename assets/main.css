@@ -42,7 +42,15 @@ html, body {
 
 @media only screen and (max-width: 600px) {
     .hero {
-        padding: 20vh 24px 24px;
+        padding: 8vh 24px 24px;
+    }
+
+    .hero > h1 {
+        font-size: 16vw !important;
+    }
+
+    .hero .tagline {
+        margin-left: 1vw;
     }
 }
 
@@ -63,7 +71,7 @@ html, body {
 
 .tagline {
     color: rgb(156, 156, 156);
-    margin-left: 4px;
+    margin-left: 0.5vw;
 
     letter-spacing: 2px;
 }
