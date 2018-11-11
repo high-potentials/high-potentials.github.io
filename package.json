@@ -1,0 +1,24 @@
+{
+  "name": "high-potentials.it",
+  "version": "0.1.0",
+  "description": "the best website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/high-potentials/high-potentials.github.io.git"
+  },
+  "author": "A high potential",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/high-potentials/high-potentials.github.io/issues"
+  },
+  "homepage": "https://github.com/high-potentials/high-potentials.github.io#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "sass": "^1.14.3"
+  }
+}
