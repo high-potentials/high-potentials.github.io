@@ -1,3 +1,5 @@
+$accent = rgb(219, 52, 44);
+
 html, body {
     width: 100%;
     height: 100%;
@@ -6,6 +8,8 @@ html, body {
     background: #fefefe;
 
     margin: 0;
+
+    border-top: 2px solid $accent;
 }
 
 .wrapper {
@@ -64,7 +68,7 @@ html, body {
 }
 
 .red-dot {
-    color: rgb(219, 52, 44);
+    color: $accent;
     margin-left: -2vw;
     cursor: pointer;
 }
